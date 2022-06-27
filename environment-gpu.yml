@@ -4,7 +4,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python>=3.8
+  - python>=3.7
   - affine>=2.3.0
   - albumentations=0.4.3
   - fiona>=1.7.13
@@ -28,7 +28,7 @@ dependencies:
   - cudatoolkit>=9.2
   - tqdm>=4.40.0
   - urllib3>=1.25.7
-  - tensorflow-gpu>=1.13.1
+  - tensorflow-gpu==1.15.0
   - cuda100
   - shapely
   #- pip

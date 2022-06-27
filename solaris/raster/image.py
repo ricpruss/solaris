@@ -1,4 +1,4 @@
-from osgeo import gdal
+from osgeo from osgeo import gdal
 import rasterio
 from affine import Affine
 import numpy as np

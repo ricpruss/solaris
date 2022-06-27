@@ -69,7 +69,7 @@ class TestGetMetrics(object):
             'train': [
                 precision, recall, f1_score, keras.metrics.binary_accuracy,
                 keras.metrics.categorical_accuracy,
-                keras.metrics.cosine_proximity,
+                tf.keras.losses.cosine_similarity,
                 keras.metrics.hinge, keras.metrics.squared_hinge,
                 keras.metrics.kullback_leibler_divergence,
                 keras.metrics.mean_absolute_error,
